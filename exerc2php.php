@@ -26,7 +26,7 @@
     B: <?php echo $b;?>
 </p>
 
-<div style="background "></div> 
+<div style="background: (<?php echo $rgb;?>)"></div> 
 
 </div>
 
