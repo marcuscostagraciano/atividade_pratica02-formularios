@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Exercício 1 - Selecione o seu carro</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<div class="quadrado">
+<h1> Selecione o seu carro: </h1>
+<form method="POST" action="exerc1php.php">
+    Modelo: <br>
+    <select name="modelocarro">
+        <optgroup name="Cadillac" label="Cadillac">
+            <option value="ATS"> ATS </option>
+            <option value="CT6-V"> CT6-V </option>
+            <option value="XT5"> XT5 </option>
+
+        </optgroup>
+
+        <optgroup name="Tesla" label="Tesla">
+                <option value="Model S"> Model S </option>
+                <option value="Roadster"> Roadster</option>
+                <option value="Model 3"> Model 3</option>
+            
+        </optgroup>
+
+        <optgroup name="MAZDA" label="MAZDA">
+                <option value="MAZDA MX-5 RF"> MAZDA MX-5 RF </option>
+                <option value="MAZDA6"> MAZDA6 </option>
+                <option value="MAZDA2"> MAZDA2 </option>            
+        </optgroup>
+    </select> <br> <br>
+
+    Cor: <br>
+        <input type="text" name="cor" placeholder="Cor da sua máquina veloz">
+
+    <br> <input type="submit"> 
+
+</form>
+</div>
+
+</body>
+
+</html>
