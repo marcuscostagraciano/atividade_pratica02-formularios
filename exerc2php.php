@@ -16,9 +16,7 @@
 
     $r= $_POST["r"];
     $g= $_POST["g"];
-    $b= $_POST["b"];
-
-    $rgb = $r.",".$g.",".$b; ?>
+    $b= $_POST["b"];?>
 
 <p>
     R: <?php echo $r;?>
@@ -26,7 +24,7 @@
     B: <?php echo $b;?>
 </p>
 
-<div style="background: (<?php echo $rgb;?>)"></div> 
+<div style="background-color: rgb(<?php print "$r, $g, $b";?>); position:relative; height:150px; align:center;"></div> 
 
 </div>
 
