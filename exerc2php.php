@@ -16,7 +16,20 @@
 
     $r= $_POST["r"];
     $g= $_POST["g"];
-    $b= $_POST["b"];?>
+    $b= $_POST["b"];
+    
+    if ($r == null)
+        {$r=0;}
+
+    if ($g == null)
+    {$g=0;}
+
+    if ($b == null)
+    {$b=0;}
+    
+    
+    
+    ?>
 
 <p>
     R: <?php echo $r;?>
