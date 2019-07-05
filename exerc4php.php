@@ -34,8 +34,6 @@ elseif ($operacao == "mult")
 
 elseif ($operacao == "div")
     {$resultado=$n1/$n2;}
-
-$resultado= number_format($resultado,3);
 ?>
 
 <p>O resultado é: <?php print " $resultado";?>
